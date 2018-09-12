@@ -26,7 +26,6 @@ def main():
         stop = timeit.default_timer()
         if results is not None:
             print ('Processing time: {:.5} secs'.format(stop - start))
-
             print('\nDoc IDS: ')
             print(results)
         print()

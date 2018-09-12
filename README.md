@@ -1,4 +1,5 @@
 # Boolean Query Model for IR
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5f50df4426554ef9802ae7c69c430f52)](https://www.codacy.com/app/pskrunner14/info-retrieval?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pskrunner14/info-retrieval&amp;utm_campaign=Badge_Grade)
 
 This is a Boolean Query Model for Information Retrieval in Python. Information retrieval is the activity of obtaining information system resources relevant to an information need from a collection of information resources. Searches can be based on full-text or other content-based indexing. We only implement text based indexing in this project. We use a Boolean Query Model to retrieve relevant information from our documents. The Boolean model of information retrieval is a classical information retrieval model and, at the same time, the first and most-adopted one. It is used by many IR systems to this day.
 

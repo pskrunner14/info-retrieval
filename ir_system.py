@@ -1,5 +1,4 @@
 import nltk
-import math
 import collections
 
 from boolean import BooleanModel
@@ -125,7 +124,7 @@ class IRSystem():
 
         # NOTE: at this point results_stack should only have one item and it is the final result
         if len(results_stack) != 1: 
-            print ("ERROR: results_stack. Please check valid query") # check for errors
+            print("ERROR: Invalid Query. Please check query syntax.") # check for errors
             return None
         
         return results_stack.pop()
